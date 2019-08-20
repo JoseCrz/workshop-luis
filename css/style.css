@@ -1,7 +1,20 @@
+:root {
+    --dark-primary-color: #00796B;
+    --light-primary-color: #B2DFDB;
+    --primary-color: #009688;
+    --text: #FFFFFF;
+    --accent-color: #607D8B;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+    --title-text: 'Montserrat', sans-serif;
+    --body-text: 'Source Sans Pro', sans-serif;
+}
+
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--body-text);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--title-text);
 }
