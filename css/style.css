@@ -59,6 +59,8 @@ h1 {
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .hero strong {
@@ -87,4 +89,15 @@ h1 {
     width: 500px;
 }
 
+.footer {
+    background: var(--dark-primary-color);
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-text);
+}
+
+.footer a {
+    color: var(--light-text);
+    text-decoration: none;
+}
 
