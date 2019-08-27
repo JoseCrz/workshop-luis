@@ -53,9 +53,17 @@ h1 {
     color: #64ffda;
 }
 
+.portfolio {
+    background: var(--light-primary-color);
+}
+
 .project {
-    border: 3px solid black;
+    border: 1px solid gray;
+    border-radius: 5px;
     display: flex;
+    margin: 10px;
+    padding: 20px;
+    background: white;
 }
 
 .project-details {
