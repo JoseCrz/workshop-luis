@@ -2,7 +2,7 @@
     --dark-primary-color: #00796B;
     --light-primary-color: #B2DFDB;
     --primary-color: #009688;
-    --text: #FFFFFF;
+    --light-text: #FFFFFF;
     --accent-color: #607D8B;
     --primary-text: #212121;
     --secondary-text: #757575;
@@ -19,16 +19,29 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--title-text);
 }
 
+.header {
+    background: var(--dark-primary-color);
+    color: var(--light-text); 
+}
+
+.header a {
+    color: var(--light-text);
+    text-decoration: none;
+}
+
+
 .project {
     border: 3px solid black;
     display: flex;
 }
 
 .project-details {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     width: 500px;
 }
 
 .project-imageContainer {
     width: 500px;
 }
+
+
