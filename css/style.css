@@ -31,7 +31,19 @@ h1 {
 
 .header {
     background: var(--dark-primary-color);
-    color: var(--light-text); 
+    color: var(--light-text);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header li {
+    margin: 0 10px;
 }
 
 .header a {
@@ -40,7 +52,7 @@ h1 {
 }
 
 .hero {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 300px;
     background: var(--primary-color);
     background-image: url("../img/hero.jpg");
