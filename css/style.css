@@ -18,3 +18,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title-text);
 }
+
+.project {
+    border: 3px solid black;
+    display: flex;
+}
+
+.project-details {
+    border: 3px solid green;
+    width: 500px;
+}
+
+.project-imageContainer {
+    width: 500px;
+}
