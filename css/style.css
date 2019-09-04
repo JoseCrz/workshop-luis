@@ -116,6 +116,43 @@ h1 {
     font-size: 20px;
 }
 
+.experience-container {
+    display: flex;
+    /* border: 5px solid yellow; */
+}
+
+.experience {
+    width: 480px;
+    margin: 10px;
+    background: var(--light-primary-color);
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.experience-imageContainer {
+    margin: 0;
+}
+
+.experience-image {
+    width: 480px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.experience-details {
+    background: white;
+    margin: 20px 30px;
+    margin-top: -45px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.experience-description {
+    text-align: left;
+}
+
 .footer {
     background: var(--dark-primary-color);
     display: flex;
