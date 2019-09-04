@@ -17,7 +17,7 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
     font-family: var(--title-text);
     font-weight: normal;
 }
@@ -86,6 +86,8 @@ h1 {
     border: 1px solid gray;
     border-radius: 5px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 10px;
     padding: 20px;
     background: white;
@@ -96,8 +98,21 @@ h1 {
     width: 500px;
 }
 
+.project-title {
+    font-size: 30px;
+    margin: 0;
+}
+
+.project-subtitle, .project-date, .project-url {
+    margin: 10px 0;
+}
+
 .project-imageContainer {
     width: 500px;
+}
+
+.project-description {
+    font-size: 20px;
 }
 
 .footer {
