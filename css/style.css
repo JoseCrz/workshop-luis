@@ -7,12 +7,14 @@
     --primary-text: #212121;
     --secondary-text: #757575;
     --divider-color: #BDBDBD;
+    --body-color: #e0f2f1;
     --title-text: 'Montserrat', sans-serif;
     --body-text: 'Source Sans Pro', sans-serif;
 }
 
 body {
     font-family: var(--body-text);
+    background: var(--body-color);
     margin: 0;
     padding: 0;
 }
@@ -70,7 +72,6 @@ h1 {
 }
 
 .portfolio {
-    background: var(--light-primary-color);
     padding: 20px;
 }
 
