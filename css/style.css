@@ -179,6 +179,30 @@ h1 {
     display: block;
 }
 
+.form-email {
+    border: 1px solid gray;
+    padding: 5px 20px;
+    padding-left: 25px;
+    border-radius: 5px;
+    background-image: url("../img/envelope.svg");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    margin: 10px 0;
+}
+
+.form-button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    background: transparent;
+    padding: 12px 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
 .social-link {
     width: 50px;
     height: 50px;
