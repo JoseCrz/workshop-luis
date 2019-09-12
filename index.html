@@ -9,95 +9,109 @@
 </head>
 <body>
     <header class="header">
-        <figure class="logo">
-            <img src="./img/logo-white.png" alt="Logo" width="100px">
-        </figure>
-        <nav>
-            <ul>
-                <li><a href="#portafolio">Portafolio</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#contacto">Trabajemos juntos</a></li>
-            </ul>
-        </nav>
+        <div class="wrapper">
+            <figure class="logo">
+                <img src="./img/logo-white.png" alt="Logo" width="100px">
+            </figure>
+            <nav>
+                <ul>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#contacto">Trabajemos juntos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section class="hero">
-        <h1>¡Hola! Soy <strong>José Cuevas</strong>,<br> me <strong>apasiona</strong> escribir <strong>código</strong>,<br> los videojuegos, el cine y la cerveza.</h1>
-        <!-- <img src="./img/hero.jpg" alt="" width="500px"> -->
+        <div class="wrapper">
+            <h1>¡Hola! Soy <strong>José Cuevas</strong>,<br> me <strong>apasiona</strong> escribir <strong>código</strong>,<br> los videojuegos, el cine y la cerveza.</h1>
+            <img class="hero-image" src="./img/hero.jpg" alt="" width="500px">
+        </div>
     </section>
     <section id="portafolio" class="portfolio">
-        <h2>Portafolio</h2>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Continiu Podcast</h3>
-                <h4 class="project-subtitle">HTML | CSS | JavaScript</h4>
-                <p class="project-date"><small><strong>Fecha:</strong> 20/11/2017</small></p>
-                <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="http://www.continiu.com" target="_blank">www.continiu.com</a></small></p>
-                <p class="project-description">Pequeña landing page de Continiu Podcast, un proyecto personal que llevaba con uno de mis mejores amigos, en el podcast hablabamos principalmente de videojuegos.</p>
-            </div>
-            <figure class="project-imageContainer">
-                <img class="project-image" src="./img/continiu.png" alt="" width="500px">
-            </figure>
-        </article>
+        <div class="wrapper">
+            <h2>Portafolio</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Continiu Podcast</h3>
+                    <h4 class="project-subtitle">HTML | CSS | JavaScript</h4>
+                    <p class="project-date"><small><strong>Fecha:</strong> 20/11/2017</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="http://www.continiu.com" target="_blank">www.continiu.com</a></small></p>
+                    <p class="project-description">Pequeña landing page de Continiu Podcast, un proyecto personal que llevaba con uno de mis mejores amigos, en el podcast hablabamos principalmente de videojuegos.</p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="./img/continiu.png" alt="" width="500px">
+                </figure>
+            </article>
+        </div>
     </section>
-    <h2>Experiencia</h2>
+    <div class="wrapper">
+        <h2>Experiencia</h2>
+    </div>
     <section id="experiencia" class="experience-container">
-        <article class="experience">
-            <figure class="experience-imageContainer" >
-                <img class="experience-image" src="./img/brooklyn.png" alt="" width="500px">
-            </figure>
-            <div class="experience-details">
-                <h3 class="experience-title">Red Ale</h3>
-                <p class="experience-description">Cerveza tipo inglesa de color rojo caramelo (no sabe a caramelo)</p>
-                <a class="experience-url" href="#">Mi opinión completa</a>
-            </div>
-        </article>
-        <article class="experience">
-            <figure class="experience-imageContainer" >
-                <img class="experience-image" src="./img/brooklyn.png" alt="" width="500px">
-            </figure>
-            <div class="experience-details">
-                <h3 class="experience-title">Red Ale</h3>
-                <p class="experience-description">Cerveza tipo inglesa de color rojo caramelo (no sabe a caramelo)</p>
-                <a class="experience-url" href="#">Mi opinión completa</a>
-            </div>
-        </article>
-        <article class="experience">
-            <figure class="experience-imageContainer" >
-                <img class="experience-image" src="./img/brooklyn.png" alt="" width="500px">
-            </figure>
-            <div class="experience-details">
-                <h3 class="experience-title">Red Ale</h3>
-                <p class="experience-description">Cerveza tipo inglesa de color rojo caramelo (no sabe a caramelo)</p>
-                <a class="experience-url" href="#">Mi opinión completa</a>
-            </div>
-        </article>
-        <article class="experience">
-            <figure class="experience-imageContainer" >
-                <img class="experience-image" src="./img/brooklyn.png" alt="" width="500px">
-            </figure>
-            <div class="experience-details">
-                <h3 class="experience-title">Red Ale</h3>
-                <p class="experience-description">Cerveza tipo inglesa de color rojo caramelo (no sabe a caramelo)</p>
-                <a class="experience-url" href="#">Mi opinión completa</a>
-            </div>
-        </article>
+        <div class="wrapper">
+            <article class="experience">
+                <figure class="experience-imageContainer" >
+                    <img class="experience-image" src="./img/brooklyn.png" alt="" width="500px">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-title">Red Ale</h3>
+                    <p class="experience-description">Cerveza tipo inglesa de color rojo caramelo (no sabe a caramelo)</p>
+                    <a class="experience-url" href="#">Mi opinión completa</a>
+                </div>
+            </article>
+            <article class="experience">
+                <figure class="experience-imageContainer" >
+                    <img class="experience-image" src="./img/brooklyn.png" alt="" width="500px">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-title">Red Ale</h3>
+                    <p class="experience-description">Cerveza tipo inglesa de color rojo caramelo (no sabe a caramelo)</p>
+                    <a class="experience-url" href="#">Mi opinión completa</a>
+                </div>
+            </article>
+            <article class="experience">
+                <figure class="experience-imageContainer" >
+                    <img class="experience-image" src="./img/brooklyn.png" alt="" width="500px">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-title">Red Ale</h3>
+                    <p class="experience-description">Cerveza tipo inglesa de color rojo caramelo (no sabe a caramelo)</p>
+                    <a class="experience-url" href="#">Mi opinión completa</a>
+                </div>
+            </article>
+            <article class="experience">
+                <figure class="experience-imageContainer" >
+                    <img class="experience-image" src="./img/brooklyn.png" alt="" width="500px">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-title">Red Ale</h3>
+                    <p class="experience-description">Cerveza tipo inglesa de color rojo caramelo (no sabe a caramelo)</p>
+                    <a class="experience-url" href="#">Mi opinión completa</a>
+                </div>
+            </article>
+        </div>
     </section>
     <section id="contacto" class="contact">
-        <form class="contact-form" action="/subscripciones" method="POST">
-            <label for="email">¿Creamos algo juntos?</label>
-            <input class="form-email" type="email" name="email" id="email" placeholder="Déjame tu email">
-            <input class="form-button" type="submit" value="Enviar">
-        </form>
-        <div class="social-container">
-            <a href="https://twitter.com" class="social-link twitter" target="_blank"></a>
-            <a href="https://facebook.com" class="social-link facebook" target="_blank"></a>
-            <a href="https://twitter.com" class="social-link twitter" target="_blank"></a>
-            <a href="https://facebook.com" class="social-link facebook" target="_blank"></a>
+        <div class="wrapper">
+            <form class="contact-form" action="/subscripciones" method="POST">
+                <label for="email">¿Creamos algo juntos?</label>
+                <input class="form-email" type="email" name="email" id="email" placeholder="Déjame tu email">
+                <input class="form-button" type="submit" value="Enviar">
+            </form>
+            <div class="social-container">
+                <a href="https://twitter.com" class="social-link twitter" target="_blank"></a>
+                <a href="https://facebook.com" class="social-link facebook" target="_blank"></a>
+                <a href="https://twitter.com" class="social-link twitter" target="_blank"></a>
+                <a href="https://facebook.com" class="social-link facebook" target="_blank"></a>
+            </div>
         </div>
     </section>
     <footer class="footer">
-        <p>Coding Workshop 2019</p>
-        <p>Powered by <a href="#">Café Jasón</a></p>
+        <div class="wrapper">
+            <p>Coding Workshop 2019</p>
+            <p>Powered by <a href="#">Café Jasón</a></p>
+        </div>
     </footer>
 </body>
 </html>

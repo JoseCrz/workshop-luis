@@ -31,6 +31,24 @@ h1 {
     letter-spacing: -.2px; 
 }
 
+h2 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 36px;
+ }
+
+/* ? CLASES UTILITARIAS */
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+}
+
 
 .header {
     background: var(--dark-primary-color);
@@ -58,12 +76,21 @@ h1 {
     /* border: 1px solid black; */
     height: 300px;
     background: var(--primary-color);
-    background-image: url("../img/hero.jpg");
-    background-size: 500px 300px;
+    /* background-image: url("../img/hero.jpg"); */
+    /* background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right; */
     display: flex;
     align-items: center;
+}
+
+.hero h1 {
+    margin: 0;
+}
+
+.hero-image {
+    height: 300px;
+    object-fit: cover;
 }
 
 .hero strong {
@@ -75,13 +102,7 @@ h1 {
     padding: 20px;
 }
 
-.portfolio h2 {
-   color: var(--primary-color);
-   text-transform: uppercase;
-   font-weight: bold;
-   font-size: 26px;
-   margin-bottom: 36px;
-}
+
 
 .project {
     border: 1px solid gray;
@@ -118,6 +139,7 @@ h1 {
 
 .experience-container {
     display: flex;
+    flex-wrap: wrap;
     /* border: 5px solid yellow; */
 }
 
@@ -217,7 +239,6 @@ h1 {
 .social-link.facebook {
     background-image: url("../img/facebook.svg");
 }
-
 
 .footer {
     background: var(--dark-primary-color);
