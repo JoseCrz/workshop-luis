@@ -48,6 +48,7 @@ h2 {
     align-items: inherit;
     flex-wrap: inherit;
     border: 1px solid red;
+    flex: 1;
 }
 
 
@@ -60,16 +61,16 @@ h2 {
     flex-wrap: wrap;
 }
 
-.header ul {
+.nav-ul {
     list-style: none;
     display: flex;
 }
 
-.header li {
+.nav-item {
     margin: 0 10px;
 }
 
-.header a {
+.nav-link{
     color: var(--light-text);
     text-decoration: none;
 }
@@ -263,8 +264,14 @@ h2 {
 }
 
 /* ? Tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+    .header {
+        display: block;
+    }
 
+    .nav-ul {
+        display: block;
+    }
 }
 
 /* ? Big Phone */
