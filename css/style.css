@@ -251,4 +251,23 @@ h2 {
     color: var(--light-text);
     text-decoration: none;
 }
+/* ? Standard */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* ? Tablet */
+@media screen and (max-width: 768px) {
+
+}
+
+/* ? Big Phone */
+@media screen and (max-width: 480px) {
+
+}
+
+/* ? Small Phone */
+@media screen and (max-width: 320px) {
+
+}
 
