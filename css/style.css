@@ -330,6 +330,11 @@ h2 {
     .social-container {
         margin-top: 10px;
     }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* ? Small Phone */
