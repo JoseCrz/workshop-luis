@@ -337,13 +337,20 @@ h2 {
     }
 }
 
-/* ? Small Phone */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .hero {
-        font-size: 12px;
         padding: 60px 0;
     }
+}
 
+@media screen and (max-width: 360px) {
+    .hero {
+        font-size: 12px;
+    }
+}
+
+/* ? Small Phone */
+@media screen and (max-width: 320px) {
     .project-details {
         font-size: 12px;
     }
