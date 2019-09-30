@@ -123,11 +123,20 @@ h2 {
 .project-details {
     /* border: 3px solid green; */
     width: 50%;
+    font-size: 16px;
 }
 
 .project-title {
-    font-size: 30px;
+    font-size: 2em;
     margin: 0;
+}
+
+.project-subtitle {
+    font-size: 1.2em;
+}
+
+.project-url, .project-date, .project-description {
+    font-size: 1em;
 }
 
 .project-subtitle, .project-date, .project-url {
@@ -143,10 +152,6 @@ h2 {
 
 .project-image {
     width: 100%;
-}
-
-.project-description {
-    font-size: 20px;
 }
 
 .experience-container {
@@ -305,11 +310,15 @@ h2 {
 
 /* ? Big Phone */
 @media screen and (max-width: 480px) {
-
+    .project-details {
+        font-size: 14px;
+    }
 }
 
 /* ? Small Phone */
 @media screen and (max-width: 320px) {
-
+    .project-details {
+        font-size: 12px;
+    }
 }
 
